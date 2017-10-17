@@ -1,11 +1,63 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
   color: #747704;
   font-weight: 300;
 }
 
+@media screen and (max-width: 420px) {
+  .title-logo {
+    float: left;
+    max-width: 16%;
+    margin-left: 15px;
+  }
+
+  h1, h4 {
+    float: left;
+    max-width: auto;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-left: 70px;
+  }
+
+  h4 {
+    font-size: 15px;
+    text-align: right;
+    margin-left: 120px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 1000px) {
+  .title-logo {
+    float: left;
+    max-width: 16%;
+    margin-left: 15px;
+  }
+
+  h1, h4 {
+    float: left;
+    max-width: auto;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-left: 170px;
+  }
+
+  h4 {
+    font-size: 20px;
+    text-align: right;
+    margin-left: 345px;
+  }
+}
+
 .text-muted {
-  color: #BCBBBB;
+  color: #bcbbbb;
 }
 
 .text-thin {
