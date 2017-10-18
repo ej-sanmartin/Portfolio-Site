@@ -4,58 +4,6 @@ body {
   font-weight: 300;
 }
 
-@media screen and (max-width: 420px) {
-  .title-logo {
-    float: left;
-    max-width: 16%;
-    margin-left: 15px;
-  }
-
-  h1, h4 {
-    float: left;
-    max-width: auto;
-  }
-
-  h1 {
-    font-size: 22px;
-    margin-left: 70px;
-  }
-
-  h4 {
-    font-size: 15px;
-    text-align: right;
-    margin-left: 120px;
-  }
-
-  h2 {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 421px) and (max-width: 1000px) {
-  .title-logo {
-    float: left;
-    max-width: 16%;
-    margin-left: 15px;
-  }
-
-  h1, h4 {
-    float: left;
-    max-width: auto;
-  }
-
-  h1 {
-    font-size: 40px;
-    margin-left: 170px;
-  }
-
-  h4 {
-    font-size: 20px;
-    text-align: right;
-    margin-left: 345px;
-  }
-}
-
 .text-muted {
   color: #bcbbbb;
 }
@@ -70,4 +18,63 @@ body {
 
 .title-logo {
   margin-top: 20px;
+}
+
+.article-img-responsive {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: paleturquoise;
+}
+
+.footer-img-responsive {
+  float: right;
+  height: auto;
+  width: 50%;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 999px) {
+  #container {
+    width: 100%;
+  }
+
+  .title-logo {
+    float: left;
+    max-height: 100px;
+    max-width: 100px;
+    width: 50%;
+  }
+
+  .text-super {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #container {
+    width: 100%;
+  }
+
+  .footer-img-responsive {
+    max-height: 35px;
+    max-width: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #container {
+    width: 400px;
+  }
 }
